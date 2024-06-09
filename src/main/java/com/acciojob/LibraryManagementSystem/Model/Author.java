@@ -22,6 +22,8 @@ public class Author {
 
     private String authorName;
 
+    private Integer age;
+
     private Integer noOfBooks;
 
     private Double rating;
