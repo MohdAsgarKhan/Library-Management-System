@@ -23,6 +23,8 @@ public class Book {
     private String bookName;
     private Integer noOfPages;
 
+    private Boolean isBookIssued;
+
     @Enumerated(value = EnumType.STRING)
     private Genre genre;
 
